@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-19T18:36:42 EDT" name="Suite" finished-at="2023-03-19T18:37:21 EDT" duration-ms="38975">
+    <groups>
+    </groups>
+    <test started-at="2023-03-19T18:36:42 EDT" name="Test" finished-at="2023-03-19T18:37:21 EDT" duration-ms="38975">
+      <class name="testCase.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:testCase.TC_001_AccountRegistration@d737b89]" started-at="2023-03-19T18:36:43 EDT" name="Setup" finished-at="2023-03-19T18:36:56 EDT" duration-ms="12781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="test_account_registration()[pri:0, instance:testCase.TC_001_AccountRegistration@d737b89]" started-at="2023-03-19T18:36:56 EDT" name="test_account_registration" finished-at="2023-03-19T18:37:01 EDT" duration-ms="5939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_account_registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_001_AccountRegistration@d737b89]" started-at="2023-03-19T18:37:01 EDT" name="tearDown" finished-at="2023-03-19T18:37:05 EDT" duration-ms="3354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_001_AccountRegistration -->
+      <class name="testCase.TC_002_LoginTest">
+        <test-method is-config="true" signature="Setup(java.lang.String)[pri:0, instance:testCase.TC_002_LoginTest@72035809]" started-at="2023-03-19T18:37:05 EDT" name="Setup" finished-at="2023-03-19T18:37:14 EDT" duration-ms="9556" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Test_login()[pri:0, instance:testCase.TC_002_LoginTest@72035809]" started-at="2023-03-19T18:37:14 EDT" name="Test_login" finished-at="2023-03-19T18:37:18 EDT" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCase.TC_002_LoginTest@72035809]" started-at="2023-03-19T18:37:18 EDT" name="tearDown" finished-at="2023-03-19T18:37:21 EDT" duration-ms="3378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCase.TC_002_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
